@@ -162,6 +162,9 @@ class ppBudget(tk.Frame):
         w.pack(fill="both")
         self.widgets['targetFilename'] = w
 
+    """
+    Populate "Presets" widget with data.
+    """
     def populatePresetsWidget(self, presets):
         values = []
         for preset in self.presets:
