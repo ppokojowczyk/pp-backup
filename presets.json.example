@@ -1,0 +1,9 @@
+[
+    {
+        "name": "/etc/apache/",
+        "fileNamePrefix": "etc_apache",
+        "sources": [
+            "/etc/apache2/"
+        ]
+    }
+]
