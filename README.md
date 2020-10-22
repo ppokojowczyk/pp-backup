@@ -1,5 +1,5 @@
 # pp-backup
-Simple application in python3 for doing backups by predefined presets.
+Application in python3 for doing backups by predefined presets.
 
 # Todo
 - Options/arguments for archiver

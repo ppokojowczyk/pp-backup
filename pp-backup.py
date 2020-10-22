@@ -222,7 +222,7 @@ class ppBudget(tk.Frame):
         self.addLog("Created archive " + filename)
         for f in preset['sources']:
             self.addLog("Adding " + f)
-            tar.add(f, "")
+            tar.add(f, recursive=True)
             self.addLog("\t+ done")
         tar.close()
         self.addLog("Finished.")

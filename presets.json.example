@@ -1,6 +1,18 @@
 [
     {
-        "name": "/etc/apache/",
+        "name": "Crontab",
+        "fileNamePrefix": "crontab",
+        "sources": [
+            "/etc/crontab",
+            "/etc/cron.d/",
+            "/etc/cron.daily",
+            "/etc/cron.hourly",
+            "/etc/cron.monthly",
+            "/etc/cron.weekly"
+        ]
+    },
+    {
+        "name": "Apache Config",
         "fileNamePrefix": "etc_apache",
         "sources": [
             "/etc/apache2/"
